@@ -114,9 +114,9 @@ public class VoiceControl : MonoBehaviour
     {
         addForce += 90;
         zScale += .1f;
-        if (addForce > 300)
+        if (addForce >= 900)
         {
-            addForce = 300;
+            addForce = 900;
             zScale = 5;
         }
         else if (addForce < 0)
@@ -133,9 +133,9 @@ public class VoiceControl : MonoBehaviour
     {
         addForce += 300;
         zScale += 1;
-        if (addForce > 900)
+        if (addForce >= 900)
         {
-            addForce = 300;
+            addForce = 900;
             zScale = 5; 
         }
         else if(addForce < 0)
