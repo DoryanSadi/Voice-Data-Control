@@ -82,14 +82,14 @@ public class VoiceControl : MonoBehaviour
 
     private void RotateRight()
     {
-        target.transform.Rotate(0, 10, 0);
+        target.transform.Rotate(0, 20, 0);
 
  
     }
 
     private void RotateLeft()
     {
-        target.transform.Rotate(0, -10, 0);
+        target.transform.Rotate(0, -20, 0);
     }
 
     private void Forward()

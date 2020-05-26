@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SettingsMenu.unity
+- path: Assets/Scenes/VoiceCannon.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
